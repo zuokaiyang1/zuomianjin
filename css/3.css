@@ -1,0 +1,484 @@
+*{
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+html,body{
+	min-width: 1240px;
+}
+
+.top{
+	width: 1423px;
+	height: 52px;
+	padding: 20px 0px;
+	/*background-color: cyan;*/
+}
+.top>.xin{
+	width: 1240px;
+	height: 52px;
+	margin: 0 auto;
+	/*background-color: cyan;*/
+}
+.top>.xin>.logo{
+	width: 168px;
+	height: 48px;
+	background: url(../image/360logo.png) no-repeat center center;
+}
+.nr{
+	width: 1423px;
+	height: 645px;
+	background: url(../image/tu.png) no-repeat center center;
+}
+.nr>.xin{
+	width: 1240px;
+	height: 645px;
+	margin: 0 auto;
+	position: relative;
+	overflow: hidden;
+}
+.nr>.xin>.left{
+	width: 150px;
+	height: 200px;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	position: absolute;
+	bottom: 0px;
+	left: 0px;
+}
+.nr>.xin>.left>.left-top{
+	width: 150px;
+	height: 17px;
+	margin: 10px 0px;
+}
+.nr>.xin>.left>.left-top>p{
+	width: 15px;
+	height: 15px;
+	font-size: 12px;
+	float: right;
+	color: rgb(0, 153, 0);
+	margin-top: -10px;
+}
+.nr>.xin>.left>.eweima{
+	width: 114px;
+	height: 119px;
+	margin: 0px 18px;
+	background-color: red;
+	background: url(../image/360app.png) no-repeat center center;
+}
+.nr>.xin>.left>.wei{
+	width: 114px;
+	height: 32px;
+    margin: 0px 18px;
+
+}
+.nr>.xin>.left>.wei>p{
+	width: 114px;
+	height: 16px;
+	font-size: 12px;
+	color: rgb(157, 157, 157);
+}
+
+.nr>.xin>.right{
+
+	width: 295px;
+	height: 367px;
+	padding: 25px;
+	background-color: white;
+	position: relative;
+	margin-top: 150px;
+	margin-left: 800px;
+	/*display: none;*/
+
+}
+.nr>.xin>.right>h2{
+	width: 295px;
+	height: 26px;
+	line-height: 26px;
+	padding: 20px 0px;
+}
+.nr>.xin>.right>div.huan{
+	width: 54px;
+	height: 54px;
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	margin:6px 6px 0px 0px;
+	background: url(../image/huan.png) no-repeat center center;
+}
+.nr>.xin>.right>div.jiant{
+	width: 120px;
+	height: 25px;
+	position: absolute;
+	top: 5px;
+	right: 60px;
+	font-size: 14px;
+	line-height: 25px;
+	text-align: center;
+	background: url(../image/jiant.png) no-repeat center center;
+}
+.nr>.xin>.right>.kon{
+	width: 295px;
+	height: 24px;
+}
+.nr>.xin>.right>.xia>.nr-li{
+	width: 295px;
+	height: 277px;
+	/*background-color: cyan;*/
+}
+.nr>.xin>.right>.xia>.nr-li>form{
+	width: 295px;
+	height:277px;
+}
+.nr>.xin>.right>.xia>.nr-li>form>.dh{
+	width: 291px;
+	height: 48px;
+	border: 2px solid #ccc;
+	margin-bottom: 18px;
+}
+.nr>.xin>.right>.xia>.nr-li>form>.dh>span.tu1{
+	display: block;
+	width: 30px;
+	height: 30px;
+	margin-top: 10px;
+	background: white url(../image/ren.png) no-repeat center center;
+}
+.nr>.xin>.right>.xia>.nr-li>form>.dh>span.tu2{
+	display: block;
+	width: 260px;
+
+	height: 30px;
+	float: right;
+}
+.nr>.xin>.right>.xia>.nr-li>form>.dh>span.tu2>input{
+	width: 250px;
+    height: 30px;
+    position: absolute;
+    top: 103px;
+    left: 60px;
+    border: 0px;
+}
+/* 密码   */
+.nr>.xin>.right>.xia>.nr-li>form>.mima{
+	width: 291px;
+	height: 48px;
+	border: 2px solid #ccc;
+	margin-bottom: 18px;
+}
+.nr>.xin>.right>.xia>.nr-li>form>.mima>span.tu3{
+	display: block;
+	width: 30px;
+	height: 30px;
+	margin-top: 10px;
+	background: white url(../image/mima.png) no-repeat center center;
+}
+.nr>.xin>.right>.xia>.nr-li>form>.mima>span.tu4{
+	display: block;
+	width: 260px;
+
+	height: 30px;
+	float: right;
+}
+.nr>.xin>.right>.xia>.nr-li>form>.mima>span.tu4>input{
+	width: 250px;
+    height: 30px;
+    position: absolute;
+    top: 173px;
+    left: 60px;
+    border: 0px;
+}
+/*  验证  */
+.nr>.xin>.right>.xia>.nr-li>form>.yanz{
+	width: 180px;
+	height: 48px;
+	border: 2px solid #ccc;
+	margin-bottom: 18px;
+	display: none;
+}
+.nr>.xin>.right>.xia>.nr-li>form>.yanz>.tu5{
+	width: 115px;
+	height: 48px;
+	/*float: right;*/
+	background: url(../image/yanz.jpg) no-repeat center center;
+	background-size: cover;
+	position: absolute;
+	top: 233px;
+	left: 210px;
+}
+.nr>.xin>.right>.xia>.nr-li>form>.zhmm{
+	width: 295px;
+	height: 19px;
+	margin-top: 20px;
+	margin-bottom: 10px;
+    font-size: 14px;
+}
+.nr>.xin>.right>.xia>.nr-li>form>.zhmm>a{
+	text-decoration:none;
+	color: rgb(122, 126, 128);
+}
+.nr>.xin>.right>.xia>.nr-li>form>.zhmm>.aa{
+	float: left;
+}
+.nr>.xin>.right>.xia>.nr-li>form>.zhmm>.ab{
+	float: right;
+}
+
+/* 登录 */
+.nr>.xin>.right>.xia>.nr-li>form>.denlu{
+	width: 295px;
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+	color: white;
+	background-color: #22AC69;
+	border-radius: 10px;
+	margin: 20px 0px 10px 0px;
+}
+.nr>.xin>.right>.xia>.nr-li>form>.wei-1{
+	width: 295px;
+	height: 30px;
+	margin-top: 22px;
+}
+.nr>.xin>.right>.xia>.nr-li>form>.wei-1>span.span1{
+	height: 30px;
+	line-height: 30px;
+	font-size: 16px;
+}
+.nr>.xin>.right>.xia>.nr-li>form>.wei-1>span.span2{
+	width: 192px;
+	height: 30px;
+}
+.nr>.xin>.right>.xia>.nr-li>form>.wei-1>span.span2>a{
+	display: block;
+	width: 25px;
+	height: 25px;
+	float: right;
+
+}
+.nr>.xin>.right>.xia>.nr-li>form>.wei-1>span.span2>a.a6{
+	background: url(../image/xiao.png) no-repeat 0px 0px;
+}
+.nr>.xin>.right>.xia>.nr-li>form>.wei-1>span.span2>a.a5{
+	display: block;
+	width: 25px;
+	height: 25px;
+	background: url(../image/xiao.png) no-repeat 0px -25px;
+}
+.nr>.xin>.right>.xia>.nr-li>form>.wei-1>span.span2>a.a4{
+	display: block;
+	width: 25px;
+	height: 25px;
+	background: url(../image/xiao.png) no-repeat 0px -53px;
+}
+.nr>.xin>.right>.xia>.nr-li>form>.wei-1>span.span2>a.a3{
+	background: url(../image/xiao.png) no-repeat 0px -80px;
+}
+.nr>.xin>.right>.xia>.nr-li>form>.wei-1>span.span2>a.a2{
+	background: url(../image/xiao.png) no-repeat 0px -108px;
+}
+.nr>.xin>.right>.xia>.nr-li>form>.wei-1>span.span2>a.a1{
+	background: url(../image/xiao.png) no-repeat 0px -135px;
+}
+
+
+
+
+/* 尾部 */
+.xia{
+	width: 1423px;
+	height: 
+}
+.xia>.xin{
+	width: 1240px;
+	height: ;
+	margin:0 auto;
+}
+.xia>.xin>.xia-top{
+	width: 1240px;
+	height: 70px;
+	padding: 30px 0px;
+}
+.xia>.xin>.xia-top>ul{
+	width: 1240px;
+	height: 70px;
+}
+.xia>.xin>.xia-top>ul>li{
+	width: 240px;
+	height: 60px;
+	border: 1px solid #ccc;
+	margin: 0px 20px;
+	float: left;
+}
+
+.xia>.xin>.xia-top>ul>li>a{
+	display: block;
+	width: 180px;
+	height: 40px;
+	padding: 10px 30px;
+}
+.xia>.xin>.xia-top>ul>li>a>i.i1{
+	display: block;
+	width: 32px;
+	height: 32px;
+	float: left;
+
+	background: white url(../image/rento.png) no-repeat center center;
+}
+.xia>.xin>.xia-top>ul>li>a>i.i2{
+	display: block;
+	width: 32px;
+	height: 32px;
+	float: left;
+
+	background: white url(../image/so.png) no-repeat center center;
+}
+.xia>.xin>.xia-top>ul>li>a>i.i3{
+	display: block;
+	width: 32px;
+	height: 32px;
+	float: left;
+
+	background: white url(../image/find.png) no-repeat center center;
+}
+.xia>.xin>.xia-top>ul>li>a>i.i4{
+	display: block;
+	width: 32px;
+	height: 32px;
+	float: left;
+	margin-top: 0px;
+	background: white url(../image/anquan.png) no-repeat center center;
+}
+.xia>.xin>.xia-top>ul>li>a>span{
+	display: block;
+	width: 130px;
+	height: 21px;
+	font-size: 14px;
+	float: right;
+	color: #ccc;
+	/*margin-top: 15px;*/
+}
+.xia>.xin>.xia-top>ul>li>a:hover{
+	color: green;
+}
+.xia>.xin>.xia-top>ul>li>a>span>p.title{
+	color: rgb(102, 102, 102);
+}
+
+
+/*下*/
+.xia>.xin>.xia-xia{
+	width: 1240px;
+	height: 74px;
+	margin: 0 auto;
+	padding-bottom: 10px;
+}
+.xia>.xin>.xia-xia>p{
+	display: block;
+	width: 1240px;
+	height: 19px;
+	font-size: 14px;
+	color: #ccc;
+	text-align: center;
+}
+.xia>.xin>.xia-xia>p>a{
+	text-decoration: none;
+	color: #ccc;
+}
+.xia>.xin>.xia-xia>p>a.awei{
+	float: left;
+}
+.xia>.xin>.xia-xia>p>span.hui{
+	display: block;
+	width: 20px;
+	height: 20px;
+	float: left;
+	margin-left: 500px;
+	background: url(../image/guohui.png) no-repeat center;
+
+}
+
+/*   扫码登录   */
+.nr>.xin>.sao{
+	width: 295px;
+	height: 391px;
+	padding: 25px;
+	background-color: white;
+	position: relative;
+	margin-top: 150px;
+	margin-left: 800px;
+	display: none;
+}
+.nr>.xin>.sao>h2{
+	width: 295px;
+	height: 26px;
+	line-height: 26px;
+	padding: 20px 0px;
+}
+.nr>.xin>.sao>div.saohuan{
+	width: 54px;
+	height: 54px;
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	margin:6px 6px 0px 0px;
+	background: url(../image/huan1.png) no-repeat center center;
+}
+.nr>.xin>.sao>div.saojiant{
+	width: 120px;
+	height: 25px;
+	position: absolute;
+	top: 5px;
+	right: 60px;
+	font-size: 14px;
+	line-height: 25px;
+	text-align: center;
+	background: url(../image/jiant.png) no-repeat center center;
+}
+.nr>.xin>.sao>.sao-xia{
+	width: 295px;
+	height: 277px;
+	background:url(../image/xiazai.png) no-repeat center center;
+}
+/*.nr>.xin>.sao>.sao-xia>.saokon{
+	width: 295px;
+	height: 33px;
+
+	position: absolute;
+	bottom: 70px;
+	padding: 23px 0px 10px 0px;
+}*/
+.nr>.xin>.sao>.sao-xia>.saop{
+	display: block;
+	width: 295px;
+	height: 26px;
+	position: absolute;
+	bottom: 60px;
+
+}
+.nr>.xin>.sao>.sao-xia>.saop>i{
+	display: block;
+	width: 26px;
+	height: 26px;
+	float: left;
+	background: url(../image/sao1.png) no-repeat center center;
+}
+.nr>.xin>.sao>.sao-xia>.saop>span{
+	color: green;
+}
+.nr>.xin>.sao>.saowei{
+	width: 295px;
+	height: 19px;
+	/*margin-bottom: -10px;*/
+	position: absolute;
+	bottom: 20px;
+
+}
+.nr>.xin>.sao>.saowei>p{
+	font-size: 14px;
+	color: #ccc;
+}
+.nr>.xin>.sao>.saowei>p.saoweip1{
+	float: left;
+}
+.nr>.xin>.sao>.saowei>p.saoweip2{
+	float: right;
+}

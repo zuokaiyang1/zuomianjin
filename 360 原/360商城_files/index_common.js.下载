@@ -1,0 +1,22 @@
+;var mall_price = (function() {
+    var init_price = function(dataPrice) {
+        //[{"id":"4761470","m":"-1","p":null,"op":null}]
+        $.each(dataPrice, function(i, price) {
+           if (price.m) {
+               var skuid = price.id;
+               var priceM = price.m <= 0 ? "暂无报价" : price.m;
+               $("[data-skuid='" + skuid + "']").append(priceM);
+			   try{
+				   if (price.m <= 0) {
+					 $("[data-itemid='" + skuid + "']").hide();
+				   }
+			   } catch (e) {
+			   }
+           }
+        });
+    };
+
+    return {
+        init_price : init_price
+    }
+})();
