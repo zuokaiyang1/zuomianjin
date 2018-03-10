@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>评价五星</title>
+    <style type="text/css">
+        .span-wjx{
+            color: red;
+        }
+        #pj-lx{
+            float: left;
+        }
+    </style>
+</head>
+<body>
+<div class="box">
+    <div id="pj-lx">描述相符度:</div>
+    <span class="span-wjx" id="0">☆</span><span class="span-wjx" id="1">☆</span><span class="span-wjx" id="2">☆</span><span class="span-wjx" id="3">☆</span><span class="span-wjx" id="4">☆</span>
+</div>
+</body>
+<script type="text/javascript">
+    var wjx=document.getElementsByClassName("span-wjx");
+    var k=6;
+    onload=function(){
+        // 循环 鼠标移入事件
+        for(var i=0;i<wjx.lenght;i++){
+            wjx[i].onmouseover=function(){
+                
+            }
+        }
+    }
+
+</script>
+</html>
